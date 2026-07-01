@@ -182,7 +182,7 @@ export default function QuestionCard({ question, index, mode, onAnswer, onNext }
             placeholder={question.type === "unscramble" ? "Type the project name…" : "Type your answer…"}
             autoComplete="off"
             spellCheck={false}
-            className="w-full mt-4.5 px-4 py-3.5 text-[17px] border-[1.5px] border-line rounded-xl bg-white text-ink focus:outline-none focus:border-green focus:ring-4 focus:ring-green/15"
+            className="w-full mt-4 px-4 py-3.5 text-[17px] border-[1.5px] border-line rounded-xl bg-white text-ink focus:outline-none focus:border-green focus:ring-4 focus:ring-green/15"
           />
         </>
       )}
@@ -190,7 +190,7 @@ export default function QuestionCard({ question, index, mode, onAnswer, onNext }
       {(question.type === "multiple" || question.type === "match") && (
         <>
           <div className="text-xl font-medium leading-snug">{question.question}</div>
-          <div className="grid gap-2.5 mt-4.5">
+          <div className="grid gap-2.5 mt-4">
             {options.map((opt, i) => {
               const isRight = normalize(opt) === normalize(question.answer || "");
               const isChosen = chosenOpt === opt;
