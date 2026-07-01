@@ -150,10 +150,10 @@ const QUESTIONS = [
     learn: "CashScript is a TypeScript SDK based on Solidity for writing BCH smart contracts." },
 
   { id: 23, type: "multiple", category: "Tech", points: 10,
-    question: "What does BitCANN provide on Bitcoin Cash?",
+    question: "What does BitCAN provide on Bitcoin Cash?",
     options: ["Decentralized domain names & identity", "A casino", "A merchant map", "A mining pool"],
     answer: "Decentralized domain names & identity",
-    learn: "BitCANN = Bitcoin Cash for Assigned Names and Numbers — a decentralized name/identity system." },
+    learn: "BitCAN = Bitcoin Cash for Assigned Names and Numbers — a decentralized name/identity system." },
 
   { id: 24, type: "match", category: "Tech", points: 10,
     question: "What is CashConnect?",
